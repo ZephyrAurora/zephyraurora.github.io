@@ -39,13 +39,7 @@
           <div class="column">
             <h2>Another Mod <br />In another Modder</h2>
             <p>Get best way to download. No password</p>
-            <div id="myButtons" class="buttons">
-
-              <div id="myPopup" class="popup">
-                <span class="popup-content">Updating...</span>
-            </div>
-            <script src="script.js"></script>
-
+            <div class="buttons">
               <a href="" class="btn">Updating...</a>
             </div>
           </div>
@@ -65,24 +59,6 @@
       menuToggler.forEach(toggler => {
         toggler.addEventListener("click", () => header.classList.toggle("showMenu"));
       });
-
-
-
-      // script.js
-      document.addEventListener('DOMContentLoaded', function () {
-      var button = document.getElementById('myButtons');
-      var popup = document.getElementById('myPopup');
-
-      button.addEventListener('mouseenter', function () {
-          popup.style.display = 'block';
-      });
-
-      button.addEventListener('mouseleave', function () {
-          popup.style.display = 'none';
-      });
-  }); 
-
-
     </script>
   </body>
   
