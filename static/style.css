@@ -105,7 +105,7 @@ li {
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
 }
 .btn:last-child {
   border: 2px solid #fff;
